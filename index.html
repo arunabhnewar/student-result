@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------custom css------->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>student-result</title>
+</head>
+
+<body>
+    <!-------header start------->
+    <header></header>
+    <!-------header end--------->
+
+    <!-------main start------->
+    <main>
+        <div class="container">
+            <h2>Student Exam Marks</h2>
+
+            <input type="text" class="inputs" id="bangla" placeholder="Enter your mark">
+            <input type="text" class="inputs" id="english" placeholder="Enter your mark">
+            <input type="text" class="inputs" id="math" placeholder="Enter your mark">
+            <input type="text" class="inputs" id="physics" placeholder="Enter your mark">
+            <input type="text" class="inputs" id="chemistry" placeholder="Enter your mark">
+            <input type="text" class="inputs" id="biology" placeholder="Enter your mark">
+
+            <br>
+
+            <button id="add_mark">Add Mark</button>
+
+            <div class="inner_total">
+                <h3>Total number out of 600 is</h3>
+                <h5>Total Mark: <span id="total_mark"></span></h5>
+                <h5>Average Mark: <span id="avg_mark"></span></h5>
+                <h5>Grade: <span id="grade_point"></span></h5>
+                <h5>Pass/Failed: <span id="pass_failed_result"></span></h5>
+            </div>
+        </div>
+    </main>
+    <!-------main end--------->
+
+    <!-------footer start------->
+    <footer></footer>
+    <!-------footer end--------->
+
+
+    <!-------js script--------->
+    <script src="./main/app.js"></script>
+</body>
+
+</html>
